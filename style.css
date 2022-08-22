@@ -1,0 +1,110 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color:  #f2ebe3
+}
+img {
+    height: 510px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#pic {
+    padding-top: 5px;
+}
+section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 100px;
+    padding: 0px 250px;
+}
+
+#conteudo {
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#main {
+    padding: 15px 0px 80px 0px;
+    margin-left: 30px;
+    
+}
+
+#perfume {
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 15px 0px;
+    color: hsl(228, 12%, 48%);
+}
+
+#title {
+    font-family: Fraunces;
+    font-weight: 700;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    color: hsl(212, 21%, 14%);
+    font-size: 2rem;
+    
+}
+
+#sub-title { 
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+#prices {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0px;
+    padding-bottom: 50px;
+}
+
+#real-price {
+    font-size: 2rem;
+    font-family: Fraunces;
+    font-weight: 700;
+    color: #3c8067;;
+}
+
+#old-price {
+    padding: 10px 10px 0px 10px;
+    font-size: 12px;
+    text-decoration: line-through;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+#carrinho {
+    height: 15px;
+    padding-right: 5px;
+}
+
+#btn {
+    width: 290px;
+    height: 45px;
+    margin-right: 25px;
+    background-color: #3c8067;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: #979797;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
